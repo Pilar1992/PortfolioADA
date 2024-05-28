@@ -1,0 +1,182 @@
+@media  only screen
+and (min-width : 375px) 
+and (max-width : 650px) { 
+    .picture {
+        margin-top: 0cm;
+        padding-top: 0cm;
+        border: 1px;
+        margin-left: 0cm;
+        padding-left: 0cm;
+    }
+
+    img {
+        max-width: 300px;
+        max-height: 400px;
+    }
+
+    body {
+        margin-right: 0cm;
+        padding-right: 0cm;
+       
+    }
+
+    article {
+        padding-left: 0cm;
+        margin-left: 0cm;
+        /* max-width: 300px; */
+        margin: 0;
+    }
+
+    .name, .description {
+        font-size: 20px;
+        max-width: 300px;
+    }
+
+    .description {
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    .button {
+        font-size: 16px;
+    }
+
+    section {
+        padding-bottom: 20px;
+    }
+
+    #link2, #link3 {
+        font-size: 25px;
+        padding-top: 10%;
+    }
+
+    p, q {
+        font-size: 14px;
+        text-align: center;
+        padding: 0 4% 0 4%;
+        /* max-width: 300px; */
+    }
+
+    .grid {
+        /* max-width: 270px; */
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card{
+        margin-top: 5px;
+        width: 250px;
+    }
+    
+    header {
+        display: none;
+    }
+
+    .one{
+        width: 99%;
+    }
+
+    .box {
+        display: block;
+        padding-right: 0cm;
+        margin-right: 0cm;
+        background: white;
+
+    }
+
+    .titulo{
+        text-align: center;
+    }
+
+    .socialicon {
+        font-size: 14px;
+    }
+
+    h1 {
+        margin-top: 0cm;
+        margin-right: 0cm;
+        background-color: white;
+    }
+
+    input {
+        display: block;
+        /* column  */
+    }
+
+    footer {
+        box-sizing: border-box;
+	    width: 100%;
+        text-align: left;
+        padding-left: 0px;
+        padding-right: 0px;
+	    margin-top: 80px;
+    }
+
+    .ending {
+        text-align: left;
+        display: inline;
+        font-size: 14px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .ending-icon{
+        width: 20%;
+    }
+
+    .ul {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+    .fieldset {
+        margin-left: 0cm;
+        padding-left: 0cm;
+    }
+
+    .frame {
+        background-color: white;
+    }
+
+    #email{
+        margin: 0;
+    }
+
+   .placeholder, #link4 {
+       display: none;
+   }
+
+   .display{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 10% 0 10%;
+   }
+
+  .formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 75vh;
+    padding: 4%;
+  }
+
+  .formulario input{
+      width: 100%;
+      height: 5vh;
+  }
+
+  .formulario textarea{
+      width: 100%;
+  }
+}
+
+/* Este es el cambio del PR */
